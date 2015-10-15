@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+html {
+	border:solid #CACAD4 6px;
+	margin:10px;
+}
+
+body {
+	text-align:center;
+	font-family:helvetica;
+	margin:0;
+	padding: 45px, 70px;
+}
+
+header {
+	height:75px;
+	padding:150px 150px 50px;
+}
+
+header h1 {
+	text-align:center;
+	font-size:50px;
+	margin:0;
+	font-family: 'Lato', sans-serif;
+}
+
+#profile {
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	border: 2px solid #9494B8;
+	margin:100px 0 50px;
+}
+
+p{
+	font-style:italic;
+	color:#00000C;
+	font-size:20px;
+
+}
+
+nav {
+	background-color:#CACAD4;
+	height:40px;
+	width:900px;
+	margin:0 auto;
+}
+
+nav ul {
+	height:100%;
+	background-color:#CACAD4;
+	text-align:center;
+	padding-left:0;
+}
+
+nav ul li {
+	display:inline-block;
+	margin:50px 50px 0;
+	font-size:30px;
+	font-family:'Lato' sans-serif;
+	cursor:pointer;
+	text-shadow:1px 1px white;
+	margin-top:0;
+}
+
+nav ul a:vistied {
+	text-decoration:none;
+}
+
+hr {
+	height:2px;
+	width:1100px;
+	background-color:grey;
+	margin-top:100px;
+
+}
+
+h2 {
+	font-family: 'Lato' sans-serif;
+	font-size:40px;
+	margin-top:65px;
+}
+
+h3 {
+	font-family: 'Lato' sans-serif;
+	font-size:30px;
+	text-align:center;
+}
+
+#about {
+	text-align:center;
+	padding:0;
+	font-family:'Lato' sans-serif;
+}
+
+#about p {
+	font-family:helvetica;
+	width:900px;
+	margin:0 auto;
+}
+
+#about h2 {
+	font-size:40px;
+	margin-top:55px;
+}
+
+.circle {
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	margin:0 auto;
+	padding:0 auto;
+	border:1px solid black;
+}
+
+.circles-parent { 
+	text-align:center; 
+}
+
+.inter {  
+	border-radius:50%; 
+	display:inline-block; 
+	margin:0 50px;
+
+}
+
+.filter {
+	filter: grayscale(20%);
+}
+
+.projects {
+	height:300px;
+	width:400px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.projects:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+}
+
+
+#footer {
+  background-color:#CACAD4;
+	width:100%;
+	margin:0 auto;
+	opacity:.7;
+	text-align:center;
+	padding:15px 0;
+}
+
+#footer p{
+	margin:0;
+}
+
+
+
+
+
+
+
